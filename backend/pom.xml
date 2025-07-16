@@ -40,16 +40,25 @@
 		</dependency>
 
 		<dependency>
-			<groupId>org.postgresql</groupId>
-			<artifactId>postgresql</artifactId>
-			<scope>runtime</scope>
+		  <groupId>org.postgresql</groupId>
+		  <artifactId>postgresql</artifactId>
+		  <version>42.7.3</version> <!-- use latest available version -->
 		</dependency>
+
+
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
 		</dependency>
-	</dependencies>
+		
+		<dependency>
+		   <groupId>jakarta.validation</groupId>
+		   <artifactId>jakarta.validation-api</artifactId>
+		   <version>3.0.2</version>
+		</dependency>
+
+</dependencies>
 
 	<build>
 		<plugins>
